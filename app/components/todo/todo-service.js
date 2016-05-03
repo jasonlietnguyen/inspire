@@ -9,7 +9,8 @@ app.service('TodoService', function($q, $http){
 		return [];
 	}
 	this.saveTodos =  function(todos){
-		localStorage.setItem('todo', todos);
+		localStorage.setItem('todo', JSON.stringify(todos));
 		console.log('Todo Data Saved:', todos);
-	}
+        
+        }
 })

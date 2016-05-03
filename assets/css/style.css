@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poiret One', cursive; 
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+}
+.time {
+    font-size: 11em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.main-container {
+    width: 700px;
+    color: white;
+    margin-top: 40px;
+}
+.sub-container {
+    border-radius: 15px;
+    opacity: .9; 
+}
+
+.title {
+    margin-top: -20px;
+}
+.list {
+    border-radius: 15px;
+    opacity: .8;
+    padding: -10px;
+    background-color: #777;
+}
+.item-list{
+    overflow-y: scroll;
+    padding-right: 17px;
+    height: 300px; 
+}
+.list:hover{
+    background-color: #444;
+    border-radius: 15px;
+    opacity: .7; 
+}
+.item-list::-webkit-scrollbar{
+    display: none;
+}
+.quotes {
+    margin: 0 50px;
+    color: white;
+    font-size: 2em;
+    
+}
+.weather {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
