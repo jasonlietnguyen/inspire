@@ -22,7 +22,7 @@
             <h2 class="time animated infinite pulse">{{ic.time | date: 'hh:mm:ss'}}</h2>
 
             <div ng-controller="QuoteController as qc" class="quotes text-center">
-                <span ng-mouseover="showAuthor = true" ng-mouseleave="showAuthor = fasle" ><i class="fa fa-quote-left" aria-hidden="true"></i> {{qc.quote.quote}} <i class="fa fa-quote-right" aria-hidden="true"></i></span>
+                <span ng-mouseover="showAuthor = true" ng-mouseleave="showAuthor = fasle" ><i class="fa fa-quote-left" aria-hidden="true"></i> {{qc.quote.quote}} <i class="fa fa-quote-right" aria-hidden="true"></i></span><br>
                 <span ng-show="showAuthor">-{{qc.quote.author}}</span>
            
             </div>
